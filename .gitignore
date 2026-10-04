@@ -1,0 +1,23 @@
+# Virtual environments
+rag-env/
+venv/
+.env/
+
+# Secrets
+.env
+groq.txt
+*.key
+*.pem
+credentials*
+
+# Generated files
+faiss_index.bin
+chunks.pkl
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
